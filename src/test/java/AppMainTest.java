@@ -7,4 +7,9 @@ public class AppMainTest {
     public void testCase1() {
         assertTrue(true);
     }
+
+    @Test
+    public void testCase2() {
+        assertTrue(true);
+    }
 }
