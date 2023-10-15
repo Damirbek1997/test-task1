@@ -14,7 +14,7 @@ public class Bank {
         return amount;
     }
 
-    public double enrollment(double amount) {
+    public double deposit(double amount) {
         balance += amount;
         return amount;
     }
