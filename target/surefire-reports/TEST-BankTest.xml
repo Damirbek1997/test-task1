@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="AppMainTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="BankTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -26,10 +26,10 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="maven.ext.class.path" value="/home/damir/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5080.210/plugins/maven/lib/maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/home/damir/Desktop/maven/apache-maven-3.6.3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="maven.conf" value="/home/damir/Desktop/maven/apache-maven-3.6.3/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -41,10 +41,10 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="damir"/>
-    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.class.path" value="/home/damir/Desktop/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar:/home/damir/Desktop/maven/apache-maven-3.6.3/boot/plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1 clean install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1 -s /home/damir/Desktop/maven/apache-maven-3.6.3/conf/settings.xml clean install"/>
     <property name="java.home" value="/home/damir/.jdks/corretto-11.0.10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -53,7 +53,7 @@
     <property name="java.version" value="11.0.10"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="maven.home" value="/home/damir/Desktop/maven/apache-maven-3.6.3"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
@@ -63,5 +63,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="AppMainTest" name="testCase1" time="0.004"/>
+  <testcase classname="BankTest" name="testFunds" time="0.013"/>
 </testsuite>
