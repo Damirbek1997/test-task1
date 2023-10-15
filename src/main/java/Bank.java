@@ -5,12 +5,17 @@ public class Bank {
         this.balance = balance;
     }
 
-    public double debit(double amount) {
+    public double withdrawal(double amount) {
         if (balance < amount) {
             amount = balance;
         }
 
         balance -= amount;
+        return amount;
+    }
+
+    public double enrollment(double amount) {
+        balance += amount;
         return amount;
     }
 }
